@@ -1,0 +1,16 @@
+root {
+    --main-bg-color:#000080;
+    --main-text-color: #a54f67;
+    --main-padding: 40px;
+}
+
+body {
+    background-color:var(--main-bg-color,#d673d5);
+    color:var(--main-text-color,#aab365);
+    padding:var(--main-padding, 100px);
+}
+
+#container {
+    text-align: center;
+    background-color: rgb(66, 177, 241);
+}
